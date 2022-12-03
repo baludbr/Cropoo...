@@ -1,0 +1,136 @@
+
+.landpage{
+  margin-top: 5%;
+}
+body{
+    background-image: url("http://68.media.tumblr.com/ea257d3b49574b8501eea3a76bd4e06a/tumblr_opu06kiosG1wppsoyo1_500.gif");
+    /* background-image: url("https://images.pexels.com/photos/207247/pexels-photo-207247.jpeg"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+ }
+
+ .page-title {
+    background: inherit;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+  
+  .page-title h1 {
+    font-size: 6rem;
+    color: white;
+    font-weight: 500;
+    text-align: left;
+
+    margin-bottom: 2rem;
+    text-shadow: 0 0px 0 black;
+  }
+
+.page-title h2{
+    font-size: 3rem;
+  text-align: left;
+  font-weight: 400;
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+.color-crop{
+    color:red;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+}
+@keyframes example {
+    0%   {color:rgb(231, 46, 46); left:0px; top:0px;}
+    25%  {color:rgb(221, 45, 198); left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:rgb(0, 140, 255); left:0px; top:0px;}
+  }
+
+  .span-text{
+    font-weight: bolder;
+  }
+  .span-text::before {
+    content: "Sell Crop";
+    animation: animate infinite 5.5s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Purchase Crop";
+        color:rgb(255, 255, 255);
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black; font-weight:bolder
+
+    }
+
+    50% {
+        color:rgb(255, 255, 255);
+        content: "Sell Crop";
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black; font-weight:bolder
+
+    }
+    75% {
+        color:rgb(255, 255, 255);
+        content: "Receive Benifits";
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black; font-weight:bolder
+
+    }
+
+    100% {
+        color:white;
+        content: "Make Eco-Friendly";
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black; font-weight:bolder
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.landpage{
+    font-family: 'Montserrat';
+}
+
+
+.buttons{
+  display: flex;
+  margin-top: 5%;
+}
+.buttoncss{
+  margin: 2%;
+}
+
+.loginbtn{
+  background:transparent;
+  padding:28px 46px;
+  font-size:22px;
+  border-radius:6px;
+  cursor:pointer;
+  color:#666ed8;
+  font-weight:bold;
+  transition:0.3s ease all;
+  border: 1px solid #666ed8;
+  box-shadow:1px 2px 3px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+.registerbtn{
+  background:#666ed8;
+  padding:28px 46px;
+
+  border:none;
+  font-size:22px;
+  border-radius:6px;
+  cursor:pointer;
+  color:white;
+  font-weight:bold;
+  transition:0.3s ease all;
+  box-shadow:1px 2px 3px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  width: auto;
+
+}
